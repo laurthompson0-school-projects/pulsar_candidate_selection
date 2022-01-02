@@ -1,0 +1,3 @@
+,Clustering Algorithm,Normalization Method,Rand Index,Fowlkes-Mallow
+0,K-means,z-score,0.9347769555732026,0.9622992088126792
+1,K-means,robust scalar,0.8497717118636621,0.9108597608201152

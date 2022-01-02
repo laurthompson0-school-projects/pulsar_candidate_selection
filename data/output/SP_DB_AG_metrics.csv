@@ -1,0 +1,8 @@
+,Clustering Algorithm,Normalization Method,Rand Index,Fowlkes-Mallow
+0,Spectral Clustering,z-score,0.8760459600082317,0.9242117562975304
+1,Spectral Clustering,robust scalar,0.85804570028931,0.9137161375039314
+2,Spectral Clustering,quantile scalar,0.9432592211894273,0.9666181362283472
+3,DBSCAN Clustering,z-score,0.8691961169848157,0.9207676098201846
+4,DBSCAN Clustering,robust scalar,0.8177319809132819,0.8848640541862351
+5,Agglomerative Clustering,z-score,0.9107329106610621,0.949833515016091
+6,Agglomerative Clustering,robust scalar,0.85511996588835,0.9142221346057176

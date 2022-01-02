@@ -1,0 +1,34 @@
+name: htru2-datamining # Name of env
+channels: # Allow conda-forge (community packages)
+  #- defaults: getting an error when this is added
+  #- nodefaults: showing several conflict when this is added
+  - conda-forge
+dependencies:
+  - python # 3.6 works with tensorflow on PMP. 3.7 has conflicts with tensorflow and is not working on the PMP environment
+  - matplotlib
+  - anaconda::xlrd
+  - numpy
+  - pandas
+  - scikit-learn
+  - ipykernel
+  - pathlib
+  - tableone
+  - pylatex
+  - lxml
+  - nb_conda_kernels
+  - anaconda::nbconvert
+  - anaconda::openpyxl
+  - bioconda::snakemake
+  - plotly::plotly
+  - anaconda::seaborn
+  - anaconda::urllib3
+  - shap
+  - xgboost
+  - imbalanced-learn
+  #- jmcmurray::json
+  #- desilinguist::factor_analyzer
+  #- anaconda::nbformat
+  - pip
+  - pip:
+    - dataframe_image
+    - kaleido
